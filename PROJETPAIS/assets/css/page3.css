@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section.fundomenu{
+    background-image: url(/assets/images/headerimg.webp);
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-bottom: 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(199, 39, 39);
+
+}
+
+
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    display: inline-block;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 50px;
+    background-color: #000;
+    color: #fff;
+    width: 450px;
+    height: 490px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer{
+    padding-top: 50px;
+    background-color: #66ff00;
+}
+
+span{
+     text-align: center 300px;
+    background-color: rgb(255, 154, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+
+}
+
